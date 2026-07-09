@@ -11,7 +11,7 @@ export default [
   // 1. 全画面共通のレイアウト（ヘッダー・フッターなど）を適用
   layout("layouts/RootLayout.tsx", [
     // ホーム画面 (/)
-    index("routes/Home.tsx"),
+    index("routes/Top.tsx"),
 
     // 2. 「電車のこと」グループ (/train/...)
     ...prefix("train", [
