@@ -1,6 +1,6 @@
 // app/routes/home.tsx (または src/routes/home.tsx)
+import { AboutUs } from "~/pages/company/AboutUs";
 import type { Route } from "./+types/AboutUs";
-import { Page } from "../../pages/home/index"; // 実際のUIコンポーネント
 
 // ページのメタデータ（SEOやタブのタイトル）を定義
 export function meta({}: Route.MetaArgs) {
@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 // React Router v7 では、Loaderなどで取得したデータをこの args から型安全に受け取れます
-export default function Home({ loaderData }: Route.ComponentProps) {
+export default function Page({ loaderData }: Route.ComponentProps) {
   // 実際の見た目は外部の Page コンポーネントに任せる
-  return <Page/>
+  return <AboutUs/>
 }
