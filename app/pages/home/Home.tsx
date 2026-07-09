@@ -99,7 +99,7 @@ export function LandscapeSwiperGallery() {
   );
 }
 
-export function Page() {
+export function Home() {
   return (
       <div className="max-w-3xl mx-auto px-6 py-12">
 
