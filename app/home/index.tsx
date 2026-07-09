@@ -105,26 +105,23 @@ export function Page() {
       <div className="max-w-3xl mx-auto px-6 py-12">
 
         {/* タイトル */}
-        <h1 className="text-4xl font-bold mb-4">岩山市</h1>
+        <h1 className="text-4xl font-bold mb-4">二島急行</h1>
         <p className="text-lg text-gray-700 mb-8">
-          二島サーバー 岩山市の公式ページです
+          二島サーバー 二島急行の公式ページです
         </p>
 
         {/* 横スクロール画像ギャラリー */}
         <LandscapeSwiperGallery></LandscapeSwiperGallery>
 
         {/* セクション：岩山市とは */}
-        <h2 className="text-2xl font-semibold mb-4">岩山市とは</h2>
+        <h2 className="text-2xl font-semibold mb-4">二島急行とは</h2>
 
         <p className="text-gray-700 leading-relaxed space-y-4">
           <span className="block">
-            岩山市は、F市長が中心となって都市の大部分を整備し、計画的に発展してきた近代都市です。
+            大島空港から八の宮を結ぶ路線です。
           </span>
           <span className="block">
-            交通・商業・住宅エリアが効率的に配置され、住みやすさと利便性を重視した都市設計が行われています。
-          </span>
-          <span className="block">
-            また、建設を独占的かつ一元的に進めることで街全体の統一感が保たれ、美しい景観と整ったインフラが魅力となっています。
+            二島サーバー最古の鉄道路線です。
           </span>
         </p>
 
