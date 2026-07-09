@@ -1,6 +1,6 @@
 // app/routes/home.tsx (または src/routes/home.tsx)
-import type { Route } from "./+types/Home";
-import { Page } from "../pages/home/index"; // 実際のUIコンポーネント
+import type { Route } from "./+types/Timetable";
+import { Page } from "../../pages/home/index"; // 実際のUIコンポーネント
 
 // ページのメタデータ（SEOやタブのタイトル）を定義
 export function meta({}: Route.MetaArgs) {

@@ -1,5 +1,5 @@
 // app/routes/home.tsx (または src/routes/home.tsx)
-import type { Route } from "./+types/Home";
+import type { Route } from "./+types/NotFound";
 import { Page } from "../pages/home/index"; // 実際のUIコンポーネント
 
 // ページのメタデータ（SEOやタブのタイトル）を定義

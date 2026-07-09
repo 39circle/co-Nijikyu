@@ -101,7 +101,6 @@ export function LandscapeSwiperGallery() {
 
 export function Page() {
   return (
-    <main className="min-h-screen bg-gray-100 text-gray-900">
       <div className="max-w-3xl mx-auto px-6 py-12">
 
         {/* タイトル */}
@@ -126,6 +125,5 @@ export function Page() {
         </p>
 
       </div>
-    </main>
   );
 }
