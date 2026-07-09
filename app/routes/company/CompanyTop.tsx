@@ -1,0 +1,17 @@
+// app/routes/home.tsx (または src/routes/home.tsx)
+import type { Route } from "./+types/CompanyTop";
+import { CompanyTop } from "../../pages/company/CompanyTop"; // 実際のUIコンポーネント
+
+// ページのメタデータ（SEOやタブのタイトル）を定義
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "二島急行 - 二島サーバー" },
+    { name: "description", content: "二島急行の公式サイトへようこそ。" },
+  ];
+}
+
+// React Router v7 では、Loaderなどで取得したデータをこの args から型安全に受け取れます
+export default function Home({ loaderData }: Route.ComponentProps) {
+  // 実際の見た目は外部の Page コンポーネントに任せる
+  return <CompanyTop/>
+}
