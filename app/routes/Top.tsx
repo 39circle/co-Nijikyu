@@ -1,5 +1,5 @@
 // app/routes/home.tsx (または src/routes/home.tsx)
-import type { Route } from "./+types/Home";
+import type { Route } from "./+types/Top";
 import {Top} from "../pages/top/Top"
 
 
